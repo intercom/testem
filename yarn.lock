@@ -3322,8 +3322,8 @@ socket.io-adapter@~2.5.2:
     ws "~8.18.3"
 
 socket.io-parser@~4.2.4:
-  version "4.2.5"
-  resolved "https://registry.yarnpkg.com/socket.io-parser/-/socket.io-parser-4.2.5.tgz#3f41b8d369129a93268f2abecba94b5292850099"
+  version "4.2.6"
+  resolved "https://registry.yarnpkg.com/socket.io-parser/-/socket.io-parser-4.2.6.tgz#19156bf179af3931abd05260cfb1491822578a6f"
   dependencies:
     "@socket.io/component-emitter" "~3.1.0"
     debug "~4.4.1"
