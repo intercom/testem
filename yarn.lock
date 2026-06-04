@@ -128,6 +128,12 @@
   dependencies:
     undici-types "~7.16.0"
 
+"@types/ws@^8.5.12":
+  version "8.18.1"
+  resolved "https://registry.yarnpkg.com/@types/ws/-/ws-8.18.1.tgz#48464e4bf2ddfd17db13d845467f6070ffea4aa9"
+  dependencies:
+    "@types/node" "*"
+
 JSONStream@^1.0.3:
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/JSONStream/-/JSONStream-1.3.3.tgz#27b4b8fbbfeab4e71bcf551e7f27be8d952239bf"
@@ -1190,18 +1196,19 @@ engine.io-parser@~5.2.1:
   resolved "https://registry.yarnpkg.com/engine.io-parser/-/engine.io-parser-5.2.3.tgz#00dc5b97b1f233a23c9398d0209504cf5f94d92f"
 
 engine.io@~6.6.0:
-  version "6.6.5"
-  resolved "https://registry.yarnpkg.com/engine.io/-/engine.io-6.6.5.tgz#a009522f5d5628109781b46722014349859269d2"
+  version "6.6.8"
+  resolved "https://registry.yarnpkg.com/engine.io/-/engine.io-6.6.8.tgz#52c43629964fb9d84bf991e0e34e3c28d4e0d3e0"
   dependencies:
     "@types/cors" "^2.8.12"
     "@types/node" ">=10.0.0"
+    "@types/ws" "^8.5.12"
     accepts "~1.3.4"
     base64id "2.0.0"
     cookie "~0.7.2"
     cors "~2.8.5"
     debug "~4.4.1"
     engine.io-parser "~5.2.1"
-    ws "~8.18.3"
+    ws "~8.20.1"
 
 entities@^1.1.1, entities@~1.1.1:
   version "1.1.1"
@@ -3315,11 +3322,11 @@ sntp@1.x.x:
     hoek "2.x.x"
 
 socket.io-adapter@~2.5.2:
-  version "2.5.6"
-  resolved "https://registry.yarnpkg.com/socket.io-adapter/-/socket.io-adapter-2.5.6.tgz#c697f609d36a676a46749782274607d8df52c1d8"
+  version "2.5.7"
+  resolved "https://registry.yarnpkg.com/socket.io-adapter/-/socket.io-adapter-2.5.7.tgz#463428625f55be6f2f784a4501013b71454c0761"
   dependencies:
     debug "~4.4.1"
-    ws "~8.18.3"
+    ws "~8.20.1"
 
 socket.io-parser@~4.2.4:
   version "4.2.6"
@@ -3768,9 +3775,9 @@ wrappy@1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
 
-ws@~8.18.3:
-  version "8.18.3"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.18.3.tgz#b56b88abffde62791c639170400c93dcb0c95472"
+ws@~8.20.1:
+  version "8.20.1"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.20.1.tgz#91a9ae2b312ccf98e0a85ec499b48cef45ab0ddb"
 
 xmldom@^0.6.0:
   version "0.6.0"
