@@ -32,7 +32,7 @@
     "fireworm": "^0.7.0",
     "glob": "^7.0.4",
     "http-proxy": "^1.13.1",
-    "js-yaml": "^3.2.5",
+    "js-yaml": "^4.2.0",
     "lodash.assignin": "^4.1.0",
     "lodash.castarray": "^4.4.0",
     "lodash.clonedeep": "^4.4.1",
@@ -47,7 +47,7 @@
     "socket.io": "^4.8.3",
     "spawn-args": "^0.2.0",
     "styled_string": "0.0.1",
-    "tap-parser": "^7.0.0",
+    "tap-parser": "^18.3.4",
     "tmp": "0.2.7",
     "xmldom": "^0.6.0"
   },
